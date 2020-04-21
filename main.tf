@@ -4,9 +4,9 @@ terraform {
 
 provider "aws" {
   version = ">= 2.27.0"
-  access_key = ""
-  secret_key = ""
-  region     = ""
+  access_key_id = ""
+  secret_access_key = ""
+  default_region     = ""
 
 }
 
